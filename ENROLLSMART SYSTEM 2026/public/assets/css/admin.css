@@ -1,0 +1,259 @@
+.admin-header {
+
+    background:
+        linear-gradient(
+            90deg,
+            #0f2942,
+            #1e40af
+        );
+
+    color: white;
+
+    padding: 15px 20px;
+
+}
+
+
+.stat-card {
+
+    background: white;
+
+    border-radius: 17px;
+
+    padding: 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    box-shadow:
+        0 8px 25px
+        rgba(15,41,66,.07);
+
+}
+
+
+.stat-icon {
+
+    width: 52px;
+
+    height: 52px;
+
+    border-radius: 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 1.4rem;
+
+}
+
+
+.stat-icon.blue {
+
+    background:
+        #eff6ff;
+
+    color:
+        #2563eb;
+
+}
+
+
+.stat-icon.yellow {
+
+    background:
+        #fffbeb;
+
+    color:
+        #d97706;
+
+}
+
+
+.stat-icon.green {
+
+    background:
+        #ecfdf5;
+
+    color:
+        #059669;
+
+}
+
+
+.stat-icon.red {
+
+    background:
+        #fff1f2;
+
+    color:
+        #e11d48;
+
+}
+
+
+.stat-card small {
+
+    color:
+        #64748b;
+
+    font-weight: 600;
+
+}
+
+
+.stat-card h3 {
+
+    margin: 2px 0 0;
+
+    font-weight: 800;
+
+}
+
+
+.schedule-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 12px;
+
+    background:
+        #f8fafc;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    border-radius: 10px;
+
+}
+
+
+.masterlist-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    max-height: 600px;
+
+    overflow-y: auto;
+
+}
+
+
+.masterlist-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+    padding: 16px;
+
+    background:
+        #f8fafc;
+
+    border:
+        1px solid
+        #e2e8f0;
+
+    border-radius: 12px;
+
+}
+
+
+.student-info {
+
+    min-width: 0;
+
+    flex: 1;
+
+}
+
+
+.student-info h6 {
+
+    font-weight: 800;
+
+    margin-bottom: 3px;
+
+}
+
+
+.student-info small {
+
+    color:
+        #64748b;
+
+}
+
+
+.appointment-time {
+
+    margin-top: 7px;
+
+    color:
+        #2563eb;
+
+    font-size: .85rem;
+
+    font-weight: 600;
+
+}
+
+
+.student-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 7px;
+
+}
+
+
+.student-actions select {
+
+    min-width: 120px;
+
+}
+
+
+@media(max-width: 576px) {
+
+    .student-actions {
+
+        width: 100%;
+
+    }
+
+    .student-actions select {
+
+        flex: 1;
+
+    }
+
+}
+.admin-kicker{font-size:.68rem;letter-spacing:.12em;font-weight:800;color:#0f6b9a}.admin-theme-btn{border:1px solid rgba(255,255,255,.3);background:transparent;color:#fff;border-radius:50%;width:34px;height:34px}.enhanced-record{align-items:center}.mini-avatar,.detail-avatar{width:38px;height:38px;border-radius:50%;background:#0f2942;color:#fff;display:grid;place-items:center;font-weight:800}.student-info h6{margin:0 0 3px}.analytics-row{margin-bottom:16px}.analytics-row>div:first-child{font-size:.8rem}.analytics-track{height:8px;background:#edf1f4;border-radius:20px;overflow:hidden;margin-top:6px}.analytics-fill{display:block;height:100%;border-radius:20px;background:#0f6b9a}.analytics-fill.pending{background:#d89b18}.analytics-fill.enrolled{background:#198754}.analytics-fill.completed{background:#3b82f6}.analytics-fill.cancelled{background:#dc3545}.program-row{margin-bottom:13px;font-size:.78rem}.program-row .progress{background:#edf1f4}.activity-item{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid #edf0f3}.activity-icon{width:32px;height:32px;border-radius:9px;background:#eef6fa;color:#0f6b9a;display:grid;place-items:center}.activity-item strong{display:block;font-size:.8rem}.activity-item small{display:block;color:#8b96a4;font-size:.68rem;margin-top:2px}.detail-avatar{width:56px;height:56px;margin:auto;font-size:1.2rem}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.detail-grid div{border:1px solid #e4e9ee;border-radius:10px;padding:10px}.detail-grid small{display:block;color:#8a96a4;font-size:.65rem;text-transform:uppercase}.detail-grid strong{display:block;font-size:.78rem;margin-top:3px}.dark-mode{background:#111b24;color:#e8eef4}.dark-mode .card-custom,.dark-mode .stat-card,.dark-mode .modal-content{background:#17242f;color:#e8eef4;border-color:#2b3a47}.dark-mode .text-muted{color:#aab8c5!important}.dark-mode .form-control,.dark-mode .form-select{background:#1d2b37;color:#e8eef4;border-color:#394b59}.dark-mode .masterlist-item,.dark-mode .schedule-item{border-color:#2d3c49}.dark-mode .activity-item{border-color:#2d3c49}.dark-mode .detail-grid div{border-color:#344653}.dark-mode .analytics-track,.dark-mode .program-row .progress{background:#2b3b48}
+@media(max-width:767px){.enhanced-record{align-items:flex-start;flex-direction:column}.student-actions{width:100%;display:flex}.student-actions .form-select{flex:1}.detail-grid{grid-template-columns:1fr}}

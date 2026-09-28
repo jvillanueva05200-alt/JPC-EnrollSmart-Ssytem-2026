@@ -1,0 +1,13 @@
+JPC ENROLLSMART 2026
+
+Quick start
+1. Install Node.js 18 or newer.
+2. Run npm install from the repository root.
+3. Run npm start.
+4. Open http://localhost:4000/
+
+The server creates its runtime secret and first administrator account automatically on first start. The generated administrator credentials are printed in the server console and saved to backend/data/first-run-admin.txt.
+
+Firebase web settings are already stored in ENROLLSMART SYSTEM 2026/public/assets/js/config.js. Firebase Authentication and Firestore are integrated. Server-side Firebase verification is enabled automatically when Firebase Admin credentials are available to the server.
+
+No .env or .env.example file is required.

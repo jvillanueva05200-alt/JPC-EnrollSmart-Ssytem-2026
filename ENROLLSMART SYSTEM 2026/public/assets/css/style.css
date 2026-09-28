@@ -1,0 +1,260 @@
+:root {
+
+    --bg-60: #eef2f6;
+
+    --primary-30: #0f2942;
+
+    --primary-hover: #163a5d;
+
+    --accent-10: #f43f5e;
+
+    --accent-hover: #e11d48;
+
+    --card-bg: #ffffff;
+
+    --text-dark: #1e293b;
+
+    --muted: #64748b;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef2f6 0%,
+            #dbe0e6 100%
+        );
+
+    color: var(--text-dark);
+
+    font-family:
+        "Segoe UI",
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+
+}
+
+
+a {
+    color: inherit;
+}
+
+
+.app-navbar {
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--primary-30),
+            #1e40af
+        );
+
+    box-shadow:
+        0 4px 20px
+        rgba(15, 41, 66, .18);
+
+}
+
+
+.brand-icon {
+
+    width: 42px;
+
+    height: 42px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background:
+        rgba(255,255,255,.12);
+
+}
+
+
+.btn-accent {
+
+    background:
+        var(--accent-10);
+
+    color: white;
+
+    border: none;
+
+    font-weight: 700;
+
+}
+
+
+.btn-accent:hover {
+
+    background:
+        var(--accent-hover);
+
+    color: white;
+
+}
+
+
+.btn-navy {
+
+    background:
+        var(--primary-30);
+
+    color: white;
+
+    border: none;
+
+    font-weight: 700;
+
+}
+
+
+.btn-navy:hover {
+
+    background:
+        var(--primary-hover);
+
+    color: white;
+
+}
+
+
+.card-custom {
+
+    background:
+        var(--card-bg);
+
+    border: none;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 10px 35px
+        rgba(15,41,66,.08);
+
+}
+
+
+.form-control,
+.form-select {
+
+    min-height: 46px;
+
+    border-radius: 10px;
+
+    border-color: #d7dee7;
+
+}
+
+
+.form-control:focus,
+.form-select:focus {
+
+    border-color:
+        #3b82f6;
+
+    box-shadow:
+        0 0 0 .2rem
+        rgba(59,130,246,.12);
+
+}
+
+
+.app-header {
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--primary-30),
+            #1e40af
+        );
+
+    color: white;
+
+    padding: 15px 20px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(0,0,0,.15);
+
+}
+
+
+.brand-link {
+
+    color: white;
+
+    text-decoration: none;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+
+.brand-link small {
+
+    display: block;
+
+    opacity: .7;
+
+    font-size: .75rem;
+
+}
+
+
+.app-footer {
+
+    background:
+        var(--primary-30);
+
+    color: #cbd5e1;
+
+    padding: 30px 0;
+
+}
+
+
+.toast-container {
+    z-index: 1090;
+}
+
+
+@media(max-width: 576px) {
+
+    .container,
+    .container-fluid {
+        --bs-gutter-x: 1.25rem;
+    }
+
+}
+.toast-notification{position:fixed;right:20px;bottom:20px;z-index:9999;display:flex;align-items:center;gap:10px;background:#17212b;color:#fff;border-radius:12px;padding:12px 16px;box-shadow:0 12px 35px rgba(0,0,0,.2);transform:translateY(20px);opacity:0;transition:.25s}.toast-notification.show{transform:translateY(0);opacity:1}.toast-success{background:#176b4c}.toast-danger{background:#8d2430}.toast-warning{background:#7b5700}
+
+.toast-notification{position:fixed;right:20px;bottom:20px;z-index:9999;display:flex;align-items:center;gap:10px;background:#17212b;color:#fff;border-radius:12px;padding:12px 16px;box-shadow:0 12px 35px rgba(0,0,0,.2);transform:translateY(20px);opacity:0;transition:.25s}.toast-notification.show{transform:translateY(0);opacity:1}.toast-success{background:#176b4c}.toast-danger{background:#8d2430}.toast-warning{background:#7b5700}
